@@ -9,4 +9,4 @@ A basic example of MQTT protocol functions and persist data in MySQL in NodeJS
 * Clone the repo : git clone  https://github.com/zuhryfayesz/MQTT-RESTFul-NodeJS.git
 * Install dependencies : npm install  
 * Start the server : node server.js
-# MQTT-RESTFul-NodeJS
+
