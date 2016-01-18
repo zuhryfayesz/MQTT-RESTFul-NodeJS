@@ -1,0 +1,10 @@
+{
+"name": "MqTT-MySQL-Node-REST-APIs",
+"version": "0.0.1",
+"main": "server.js",
+"dependencies": {
+									"express": "^4.8.7",
+									"mysql":"^2.5.5",
+									"body-parser":"^1.12.0"
+								}
+}
