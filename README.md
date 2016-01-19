@@ -1,5 +1,5 @@
 # MQTT-RESTFul-NodeJS
-A basic example of MQTT protocol functions and persist data in MySQL in NodeJS
+A basic example of MQTT protocol functions and persist data in MySQL via Node Server
 
 ##Requirements
 * Node, npm and MySQL server
