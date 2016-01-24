@@ -4,7 +4,7 @@
 
 
 // Import required Node dependencies and modules
-var app   	   = require('express')();
+var app        = require('express')();
 var http       = require('http').Server(app);
 var mysql      = require('mysql');
 var bodyParser = require("body-parser");
@@ -36,7 +36,7 @@ client.on('message', function (topic, message) {
       // message is Buffer convert to String 
 	  console.log(topic.toString());
 	  console.log(message.toString());
-	  var payload = message.toString();
+	  var payload       = message.toString();
 	  var message_topic = topic.toString();
 
 	  var data = {
