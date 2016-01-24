@@ -46,7 +46,7 @@ client.on('message', function (topic, message) {
 
 	  connection.query("INSERT INTO mqtt VALUES(?,?)",[payload,message_topic],function(err, rows, fields){
 			if(!!err){
-				client.publich('fayesz', 'Unable to save the data to the database');
+				client.publish('fayesz', 'Unable to save the data to the database');
 			}else{
 				client.publish('fayesz', 'saved to database !!!');
 			}
